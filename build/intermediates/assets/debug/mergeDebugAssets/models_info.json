@@ -1,0 +1,67 @@
+{
+    "classifier": {
+        "model_path": "classifier_224.tflite",
+        "label_path": "classifier_labelmap",
+        "input_shape": [
+            1,
+            224,
+            224,
+            3
+        ],
+        "input_dtype": "<class 'numpy.float32'>",
+        "output_shape": [
+            1,
+            9
+        ],
+        "output_dtype": "<class 'numpy.float32'>",
+        "quantization": {
+            "is_quantized": false
+        },
+        "operators_used": [
+            "AVERAGE_POOL_2D",
+            "CONV_2D",
+            "DELEGATE",
+            "DEPTHWISE_CONV_2D",
+            "FULLY_CONNECTED",
+            "SOFTMAX"
+        ],
+        "model_size_mb": 16.15,
+        "label_count": 0,
+        "labels": []
+    },
+    "detect": {
+        "model_path": "detect.tflite",
+        "label_path": "detect_labelmap",
+        "input_shape": [
+            1,
+            300,
+            300,
+            3
+        ],
+        "input_dtype": "<class 'numpy.uint8'>",
+        "output_shape": [
+            1,
+            10,
+            4
+        ],
+        "output_dtype": "<class 'numpy.float32'>",
+        "quantization": {
+            "input_scale": 0.0078125,
+            "input_zero_point": 128,
+            "is_quantized": true
+        },
+        "operators_used": [
+            "ADD",
+            "CONCATENATION",
+            "CONV_2D",
+            "DELEGATE",
+            "DEPTHWISE_CONV_2D",
+            "LOGISTIC",
+            "RESHAPE",
+            "TFLite_Detection_PostProcess"
+        ],
+        "model_size_mb": 4.81,
+        "label_count": 0,
+        "labels": []
+    }
+}

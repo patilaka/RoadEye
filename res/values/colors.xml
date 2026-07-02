@@ -1,0 +1,26 @@
+<resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorPrimaryLight">#42A5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSurface">#1C1B1F</color>
+    <color name="colorOnSurfaceVariant">#49454F</color>
+    <color name="colorOutline">#79747E</color>
+    <color name="colorError">#B3261E</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="cod_gray">#111111</color>
+    <color name="dove_gray">#666666</color>
+    <color name="semi_transparent">#66000000</color>
+    <color name="speed_green">#4CAF50</color>
+    <color name="speed_yellow">#FFC107</color>
+    <color name="speed_red">#F44336</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_background">#121212</color>
+    <color name="limit_badge_bg">#E3F2FD</color>
+    <color name="limit_exceed_bg">#FFEBEE</color>
+    <color name="safe_green">#2E7D32</color>
+    <color name="danger_red">#C62828</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cod_gray">#111111</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="dove_gray">#666666</color>
+    <color name="porcelain">#F2F4F5</color>
+    <color name="semi_transparent">#66000000</color>
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <string name="app_name">Traffic Sign Recognition</string>
+    <string name="camera_error">Camera error</string>
+    <string name="cancel">Cancel</string>
+    <string name="gps_disabled">GPS is disabled</string>
+    <string name="ok">OK</string>
+    <string name="please_enable_gps">Please enable GPS to use all features of this app.</string>
+    <string name="waiting_for_fix">Waiting for GPS fix…</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
