@@ -116,11 +116,11 @@ gradlew.bat assembleDebug
 - **Developer:** akapatil
 - **Version:** 2.0.0
 
+<!---
 ## Screenshots
-
 | Dashboard | Detection | Settings |
 |---|---|---|
-| ![Dashboard](screens/screenshot_0.jpg) | ![Detection](screens/screenshot_1.jpg) | ![Settings](screens/screenshot_2.jpg) |
+| ![Dashboard](screens/screenshot_0.jpg) | ![Detection](screens/screenshot_1.jpg) | ![Settings](screens/screenshot_2.jpg) |--->
 
 ## License
 
